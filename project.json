@@ -1,4 +1,9 @@
 {
+  "name": "jsdev",
+  "version": "1.0.0",
+  "description": "JSDEV Demos 10 October 2016",
+  "copyright": "Info Support",
+  "title": "JSDEV DEMOS",
   "dependencies": {
     "Microsoft.NETCore.App": {
       "version": "1.0.1",
