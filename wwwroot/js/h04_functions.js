@@ -1,5 +1,5 @@
 
-var value = function module(){
+var library = function module(){
     var i = 0;
     function increment()
     {
@@ -16,9 +16,9 @@ var value = function module(){
     } ;
 }();
 
-//value.inc();
+//library.inc();
 
-//var val2 = module();
+//var library2 = module();
 
 
 
@@ -34,13 +34,13 @@ var value = function module(){
         if(i>0)
             i--;
     }
-    window.value = {
+    window.library = {
         inc : increment,
         dec : decrement
     } ;
 })();
 
-var x = {};
+var library = {};
 (function module(param){
     var i = 0;
     function increment()
@@ -56,7 +56,6 @@ var x = {};
         inc : increment,
         dec : decrement
     } ;
-})(x);
-
+})(library);
 
 
